@@ -60,5 +60,32 @@ footer {
   }
 }
 
+/* Style the search bar container */
 .search-bar {
+  display: flex;
+  width: 100%;
+  margin: 20px auto;
+}
+
+/* Style the search input */
+.search-bar input[type="search"] {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+}
+
+/* Style the search button */
+.search-bar button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #6a0025;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+.search-bar button:hover {
+  background-color: #9e0238;
 }
