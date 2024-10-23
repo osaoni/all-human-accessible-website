@@ -25,6 +25,10 @@ footer {
 
 .list-webs {
   list-style-type: none;
+  display: flex;
+  gap: 1em;
+  padding: 0;
+  overflow-x: scroll;
   li {
     width: 12em;
   }
@@ -48,4 +52,13 @@ footer {
     bottom: 10%;
     right: 3%;
   }
+}
+
+@media (max-width: 430px) {
+  header {
+    background-color: #6a0025;
+  }
+}
+
+.search-bar {
 }
